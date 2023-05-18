@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Update gist
-        uses: yankeeguyu/waka-box@master
+        uses: gaecoli/waka-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 45510e1c83e48ecb9eac9beb2425a190

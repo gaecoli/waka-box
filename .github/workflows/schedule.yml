@@ -1,4 +1,4 @@
-name: Update gist with WakaTime stats
+name: Update gist with WakaTime stats every day
 on:
   schedule:
     - cron: "30 7,11 * * *"
